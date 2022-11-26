@@ -1,0 +1,27 @@
+{% extends 'base_main.html' %}
+    
+{% block content %}
+
+
+
+<form action="" method="post">
+    {% csrf_token %}
+    
+    {{ form.as_p }}
+
+    </br>
+    <div class="row">
+        <div>
+            <input type="submit" value="update" class="btn btn-secondary">
+        </div>
+        <div>
+            <a href="{{request.META.HTTP_REFERER}}"> Back </a>
+        </div>
+    </div>
+
+</form>
+
+
+
+
+{% endblock %} 
