@@ -127,8 +127,8 @@ EMAIL_BACKEDN = 'django.core.mail.backends.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = '587'
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'ppillhuaman@electrodata.com.pe'
-EMAIL_HOST_PASSWORD = 'pxxgkbybxegjxidi'
+#EMAIL_HOST_USER = '######################'
+#EMAIL_HOST_PASSWORD = '#####################'
 
 CELERY_BROKER_URL = "redis://localhost:6379"
 CELERY_RESULT_BACKEND = "redis://localhost:6379"
